@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
-import './sidebar.scss'
+import './sidebar.scss';
+// import Header from '../Header/Header'
 
 class Sidebar extends Component{
     render(){
         return(
+            <React.Fragment>
             <div class="holy-grail-grid">
+                
                 <div class="holy-grail-left">
                   <h3>Nav</h3>
                   <ul>
@@ -14,6 +17,7 @@ class Sidebar extends Component{
                   </ul>
                 </div>
             </div>
+            </React.Fragment>
 
 
         );
